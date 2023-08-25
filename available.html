@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Available buses </title>
+<style>
+.gps-container{
+margin: 20px;
+}
+label, span{
+display: block;
+margin-buttom: 10px;
+}
+span{
+font-weight: bold;
+}
+</style>
+<script>
+window.addEventListener('load', 
+function(){
+    if ("geolocation" in navigator){
+        navigator.geolocation.getCurrentPosition(function(position){
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+            document.getElementById("latitude").textContent= latitude;
+            document.getElementById("longitude").textContent= longitude;
+        });
+    }
+    else{
+        document.getElementById("latitude").textContent= "GPS not supported";
+        document.getElementById("longitude").textContent= "GPS not supported";
+    }
+});
+</script>
+</head>
+<body>
+<div class="gps-container">
+<label for="latitude">Latitude</label>
+<span id="latitude"></span>
+<br>
+<label for="longitude">Longitude</label>
+<span id="longitude"></span>
+<div>
+</body>
+</html>

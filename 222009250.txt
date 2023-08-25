@@ -1,0 +1,30 @@
+<!doctype>< html>
+<html>
+<head>
+<title>my project</tittle>
+</head>
+<body>
+<h1>welcome to the accommodation result access</h1>
+<div align="left">
+<a href="index.html">HOME</a>
+<a href="index.html">SERVISE</a>
+<a href="index.html">CONTACT</a>
+<a href="index.html">LOGIN</a>
+</div>
+<main>
+<section>
+<h2>about</h2>
+<p>
+this is my project which will provide asecure results for hostel applicants without publishing their names on list the applicant my have to create account of hih or her application in order to have well protected result than accessing it publically.
+</p>
+<h2>login</h2>
+<form action="access_results.php"method="POST">
+<label for="user name"requid>
+<label for="password">password:</label>
+<input type="password"id="password"name="password"required>
+<button type="submit">login</button>
+</form>
+</section>
+</main>
+</body>
+</html>

@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-size" border-box;
+front-family: "poppins", sans-serif;
+}
+body{
+  display: flex;
+    justify-content: center;
+align-items: center; 
+   min-height: 100vh;
+background: #000;
+}
+.language-box{
+position: relation;
+width: 700px;
+height: 550px;
+background: green;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center:
+}
+h2{
+front-size: 20%;
+color: #fff;
+text-align: center;
+    margin-top: 30%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ 
+
